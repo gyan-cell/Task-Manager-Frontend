@@ -1,0 +1,19 @@
+@media (max-width: 900px) {
+  .login {
+    padding: 0;
+  }
+}
+
+@media (max-width : 900px) {
+  .header{
+    height: 100px;
+    // padding: 0.1%;
+    flex-direction: column;
+    >div>h2{
+      margin-top: 10px;
+    }
+    >article>a{
+      width: 7rem;
+    }
+  } 
+}
